@@ -214,13 +214,7 @@ public class SellBookForm extends javax.swing.JFrame {
         
         for (Book book : books) {
             if (book.getAvailableCopies() > 0) {
-                Object[] row = {
-                    book.getId(),
-                    book.getName(),
-                    book.getAuthorName(),
-                    book.getAvailableCopies(),
-                    book.getSellingPrice()
-                };
+                Object[] row = { book.getId(),book.getName(),book.getAuthorName(), book.getAvailableCopies(),book.getSellingPrice() };
                 bookTableModel.addRow(row);
             }
         }
