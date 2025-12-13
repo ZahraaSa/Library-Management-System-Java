@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="643" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="382" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Library Service Terms and Conditions&#xa;By accepting these terms, &#xa;you agree to be bound by all the rules and regulations stipulated below concerning the provision of services &#xa;by the Library.&#xa;&#xa;1. Registration and Account Usage&#xa;&#xa;1.1. All data provided during the client account creation (newclient) must be accurate, &#xa;complete, and up-to-date. The client bears full responsibility for updating their contact information. &#xa;1.2.The client is granted an &quot;Active Status&quot; upon registration. &#xa;This status will be revoked in the event of a violation of any clause herein, resulting in the suspension &#xa;of all rental and purchase transactions. &#xa;1.3. The client must protect their account details and must not share them with any third party.&#xa;&#xa;2. Book Rental Policy&#xa;2.1. Eligibility: The client must be in an &quot;Active Status&quot; and have a clean credit record&#xa; (i.e., no overdue books or unpaid fines) to be eligible for rental transactions (isEligibleForTransaction). &#xa;2.2. Maximum Limit: The client is permitted to rent a maximum number of books simultaneously &#xa;(to be determined by the management). &#xa;2.3. Rental Duration: The standard rental period is seven (7) days from the rental date (rentDate). &#xa;This period may be extended according to the approved extension policy. &#xa;2.4. Book Availability: A rental transaction can only be completed if there is an available copy of the book in stock&#xa; (book.getAvailableCopies() &gt; 0).&#xa;&#xa;3. Fines, Delays, and Damages&#xa;3.1. Late Fees: Should a book not be returned by its due date, a daily financial fine will be imposed, &#xa;as determined by the Library management, starting from the day following the due date. &#xa;3.2. Damages and Loss: The client is fully responsible for the integrity and safety of the rented book.&#xa; * In case of partial damage (stains, minor tears), a repair fee, determined by the Library, must be paid. *&#xa; In case of severe damage or loss of the book, the client is obligated to pay the original book replacement &#xa;price plus any administrative fees, and the book will be removed from the client&apos;s rented list.&#xa;&#xa;4. Return Policy&#xa;4.1. The book return process is executed by entering the client&apos;s ID and selecting the book(s)&#xa; to be returned from their rented list. &#xa;4.2. Upon successful return, the rental information is removed from the client&apos;s list of rented books,&#xa;and the number of available copies in the Library is increased by one (the reverse of book.rentCopy()).&#xa;&#xa;5. Purchase and Sales&#xa;5.1. Book purchase transactions are also subject to the client&apos;s &quot;Active Status&quot; requirement. &#xa;5.2. Upon purchasing a book, the number of sold copies for that book will be increased in the Library&apos;s records.&#xa;&#xa;By continuing to use our services, you fully acknowledge and agree to these Terms and Conditions."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
