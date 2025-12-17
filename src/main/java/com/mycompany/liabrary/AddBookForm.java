@@ -11,7 +11,6 @@ import javax.swing.JOptionPane;
  * @author zahoraty
  */
 public class AddBookForm extends javax.swing.JFrame {
-
     /**
      * Creates new form AddBookForm
      */
