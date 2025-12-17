@@ -33,7 +33,7 @@ Reports: Generating detailed reports on operations, lending history, and invento
 Apache NetBeans IDE (Recommended for easy setup).
 ###Installation and Run Steps1. Clone the Repository:
 
-git clone https://github.com/YourUsername/Library-Management-System-Java.git
+git clone https://github.com/ZahraaSa/Library-Management-System-Java.git
 Open Project in NetBeans:
 Open your NetBeans IDE.
 Click File > Open Project.
