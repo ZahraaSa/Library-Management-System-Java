@@ -48,3 +48,5 @@ Click the Run button.
 ##⚖️ LicenseThis project is licensed under the MIT License.
 
 Developer: [Zahraa Sa)] Date: December 2025
+
+<img width="624" height="729" alt="uml" src="https://github.com/user-attachments/assets/495c8f04-346e-424d-b449-8c0496c7e32e" />
