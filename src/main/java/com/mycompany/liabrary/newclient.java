@@ -243,7 +243,7 @@ public class newclient extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(this, "You must agree to the Terms and Conditions to register the client.", "Registration Error", JOptionPane.ERROR_MESSAGE);
               return;
         }
-        if (!jCheckBox2.isSelected()) s="active";
+        if (jCheckBox2.isSelected()) s="active";
         else s="inactive";
     
       char genderChar;
